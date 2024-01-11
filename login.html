@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./write.css" />
+  </head>
+  <body>
+    <div class="contact_main d-flex d-justify-center d-align-center">
+      <div>
+        <h1 class="fw-600 tc-white fs-5">Login</h1>
+        <p class="fw-500">
+          <a href="./index.html" class="td-none tc-white">Home </a>/
+          <a href="./contactus.html" class="td-none tc-white">Login</a>
+        </p>
+      </div>
+    </div>
+    <div class="d-flex d-justify-center half mt-4">
+      <div class="d-flex">
+        <div class="col-md-7">
+          <div class="top_line"></div>
+          <h3 class="fs-m fw-500">Login to <strong>Nepfilili</strong></h3>
+          <p class="mb-1">
+            Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur
+            adipisicing.
+          </p>
+          <form action="#" method="post">
+            <div class="form-group first">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="your-email@gmail.com"
+                id="username"
+              />
+            </div>
+            <div class="form-group last">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Your Password"
+                id="password"
+              />
+            </div>
+            <div class="d-flex d-justify-between">
+              <label class="control mb-0"
+                ><span class="caption">Remember me</span>
+                <input type="checkbox" checked="checked" />
+                <div class="control__indicator"></div>
+              </label>
+              <span class=""
+                ><a href="#" class="forgot-pass">Forgot Password</a></span
+              >
+            </div>
+            <button
+              type="submit"
+              value="Log In"
+              class="neutral_button fw-600 btn btn_login"
+            >
+              Login
+            </button>
+            <div class="text-center mt-1">
+              <p class="fw-400 sign_uptext">
+                Already an Account
+                <span class=""
+                  ><a href="register.html" class="tc-blue">Sign Up</a></span
+                >
+              </p>
+            </div>
+          </form>
+          <p class="text-center m-1 tc-orange">--or--</p>
+          <button
+            type="submit"
+            value="Log In"
+            class="primary_button fw-600 btn btn_login tc-white"
+          >
+            Facebook
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
